@@ -1,0 +1,92 @@
+[
+  {
+    "name": "React.js",
+    "icon": "react",
+    "tag": "front"
+  },
+  {
+    "name": "Vue.js",
+    "icon": "vue",
+    "tag": "front"
+  },
+  {
+    "name": "Svelte",
+    "icon": "svelte",
+    "tag": "front"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript",
+    "tag": "langage"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "tailwind",
+    "tag": "front"
+  },
+  {
+    "name": "SQL",
+    "icon": "sql",
+    "tag": "database"
+  },
+  {
+    "name": "GraphQL",
+    "icon": "graphql",
+    "tag": "back"
+  },
+  {
+    "name": "Node.js",
+    "icon": "node",
+    "tag": "back"
+  },
+  {
+    "name": "Nest.js",
+    "icon": "nest",
+    "tag": "back"
+  },
+  {
+    "name": "Golang",
+    "icon": "golang",
+    "tag": "back"
+  },
+  {
+    "name": "Docker",
+    "icon": "docker",
+    "tag": "devops"
+  },
+  {
+    "name": "AWS",
+    "icon": "aws",
+    "tag": "devops"
+  },
+  {
+    "name": "Terraform",
+    "icon": "terraform",
+    "tag": "devops"
+  },
+  {
+    "name": "Github Actions",
+    "icon": "github",
+    "tag": "devops"
+  },
+  {
+    "name": "React Native",
+    "icon": "react",
+    "tag": "mobile"
+  },
+  {
+    "name": "Flutter",
+    "icon": "flutter",
+    "tag": "mobile"
+  },
+  {
+    "name": "Playwright",
+    "icon": "playwright",
+    "tag": "Testing"
+  },
+  {
+    "name": "Jest",
+    "icon": "jest",
+    "tag": "Testing"
+  }
+]

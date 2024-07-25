@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Particeep",
+    "job": "Développeur React.js",
+    "start": "2023",
+    "end": null,
+    "description": [
+    	"Développement de composants React.js avec TypeScript",
+    	"Refactorisation de code sur un projet de plus de 5 ans",
+      "Mise en place de tests unitaires avec Vitest et E2E avec Playwright",
+      "Utilisation de Redux pour le state management",
+      "Intégration de Docker au projet",
+    	"Environnement technique : React.js, TypeScript, Redux, Zod, Playwright, Vitest, Docker, PostgreSQL, BitBucket, Jenkins"
+    ]
+  },
+  {
+    "company": "JobPass",
+    "job": "Développeur Front-end",
+    "start": "2021",
+    "end": "2022",
+    "description": [
+      "Développement de composants Vue.js 3 sous Quasar",
+	    "Utilisation de GraphQL pour le requêtage des données",
+      "Mise en place de tests E2E avec Cypress",
+      "Méthodologie AGILE",
+	    "Environnement technique : Vue.js 3, Quasar, GraphQL, Pinia, TypeScript, Firebase, Cypress, Docker, PostgreSQL, GitLab"
+    ]
+  },
+  {
+    "company": "ZencarZ",
+    "job": "Développeur Full Stack",
+    "start": "2020",
+    "end": "2021",
+    "description": [
+      "Analyse des besoins et conception d'une application web",
+      "Développement front-end et back-end",
+      "Mise en place de la base de données",
+      "Mise en production de l'application",
+      "Environnement technique : HTML, CSS, JavaScript, Node.js, Express, MongoDB, Glide, Heroku, GitHub"
+    ]
+  }
+]

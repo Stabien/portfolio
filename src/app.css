@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: theme(colors.black);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Nunito'
+}
