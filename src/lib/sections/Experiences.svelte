@@ -4,7 +4,7 @@
 </script>
 
 <Section bg="dark" style="flex flex-col items-center">
-	<h1 class="font-bold text-3xl text-center mb-16">Expériences</h1>
+	<h1 class="font-bold text-4xl text-center mb-16">Expériences</h1>
 	<div>
 		<ExperienceList />
 	</div>

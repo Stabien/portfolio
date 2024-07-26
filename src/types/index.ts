@@ -11,3 +11,10 @@ export interface Experience {
   end: string | null
   description: string[]
 }
+
+export interface Diploma {
+  name: string
+  school: string
+  start: string
+  end: string
+}
