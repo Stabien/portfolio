@@ -4,6 +4,6 @@
 </script>
 
 <Section>
-	<h1 class="text-4xl text-center font-bold mb-8">Compétences</h1>
+	<h1 class="text-4xl text-center font-bold mb-12">Compétences</h1>
 	<SkillList />
 </Section>

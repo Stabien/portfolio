@@ -28,7 +28,7 @@
 		<span class="text-sm -mt-2 mb-2 sm:hidden bg-primary text-grey font-medium p-1.5 rounded-xl"
 			>{data.start} - {data.end ?? "Aujourd'hui"}</span
 		>
-		<div class="p-4 bg-grey rounded-lg">
+		<div class="p-4 bg-grey rounded-lg sm:-mt-3">
 			<h1 class="sm:-mt-1.5 mb-2 font-medium flex flex-col">
 				<span class="sm:text-primary sm:font-regular sm:text-lg">{data.job}</span>
 				<span class="text-primary sm:text-white sm:font-medium">{data.company}</span>

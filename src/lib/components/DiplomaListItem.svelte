@@ -28,7 +28,7 @@
 		<span class="text-sm -mt-2 mb-2 sm:hidden bg-primary text-grey font-medium p-1.5 rounded-xl"
 			>{data.start} - {data.end ?? "Aujourd'hui"}</span
 		>
-		<div class="p-4 bg-grey rounded-lg">
+		<div class="p-4 bg-grey rounded-lg sm:-mt-3">
 			<h1 class="sm:-mt-1.5 sm:text-primary sm:font-regular sm:text-lg font-medium flex flex-col">
 				{data.name}
 			</h1>
