@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Olympe",
+    "start": "Avril 2024",
+    "end": null,
+    "description": "Olympe a pour but d'être une plateforme SAAS permettant un suivi de l'activité sportive de l'utilisateur (plutôt orienté fitness et musculation), avec la possibilité de gérer aussi sa nutrition et l'évolution de son poids",
+    "skills": ["Svelte", "Nest.js", "TypeScript", "Docker"],
+    "icon": ""
+  },
+  {
+    "name": "Nutrifinder",
+    "start": "Mai 2021",
+    "end": "Août 2021",
+    "description": "Nutrifinder est une application mobile cross platform qui permet de consulter les données nutritionnelles de plus de 3000 produits alimentaires, le tout en offline.",
+    "skills": ["React Native", "JavaScript", "SQL", "Git"],
+    "icon": "nutrifinder.png"
+  },
+  {
+    "name": "Youtube Records",
+    "start": "Novembre 2020",
+    "end": "Novembre 2020",
+    "description": "Extension chrome permettant de télécharger et convertir une vidéo Youtube au format mp3 directement depuis la page de la vidéo.",
+    "skills": ["JavaScript", "Node.js", "Git"],
+    "icon": "youtube.svg"
+  }
+]

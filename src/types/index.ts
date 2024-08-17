@@ -18,3 +18,12 @@ export interface Diploma {
   start: string
   end: string
 }
+
+export interface Project {
+  name: string
+  start: string
+  end: string | null
+  description: string
+  skills: string[]
+  icon: string
+}

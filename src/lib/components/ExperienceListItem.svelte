@@ -35,7 +35,7 @@
 			</h1>
 			<ul class="flex flex-col space-y-1.5 list-disc ml-4 text-zinc-200">
 				{#each data.description as action}
-					<li class="text-[0.8125rem] sm:text-[0.875rem] font-light">{action}</li>
+					<li class="text-[0.875rem] font-light">{action}</li>
 				{/each}
 			</ul>
 		</div>
