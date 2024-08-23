@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex justify-center">
-	<NavBar {routes} />
+	<!-- <NavBar {routes} /> -->
 </div>
 
 <slot />

@@ -3,6 +3,8 @@
 	import ExperienceListItem from './ExperienceListItem.svelte';
 </script>
 
-{#each experiences as experience, index}
-	<ExperienceListItem data={experience} isLast={index === experiences.length - 1} />
-{/each}
+<div>
+	{#each experiences as experience, index}
+		<ExperienceListItem data={experience} isLast={index === experiences.length - 1} />
+	{/each}
+</div>

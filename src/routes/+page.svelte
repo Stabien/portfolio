@@ -9,9 +9,8 @@
 
 <main class="w-full flex flex-col">
 	<Banner />
-	<About />
 	<Skills />
 	<Experiences />
 	<Education />
-  <Projects />
+	<Projects />
 </main>

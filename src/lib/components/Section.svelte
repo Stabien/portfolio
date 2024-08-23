@@ -7,7 +7,7 @@
 		dark: 'bg-black'
 	};
 
-	const computedStyle = `w-full ${bgStyles[bg]} p-4 ${style} my-4`;
+	const computedStyle = `w-full ${bgStyles[bg]} p-4 ${style} mb-8`;
 </script>
 
 <section class={computedStyle}>

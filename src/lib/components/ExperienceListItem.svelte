@@ -29,10 +29,10 @@
 			>{data.start} - {data.end ?? "Aujourd'hui"}</span
 		>
 		<div class="p-4 bg-grey rounded-lg sm:-mt-3">
-			<h1 class="sm:-mt-1.5 mb-2 font-medium flex flex-col">
-				<span class="sm:text-primary sm:font-regular sm:text-lg">{data.job}</span>
+			<div class="sm:-mt-1.5 mb-2 font-medium flex flex-col">
+				<h1 class="sm:text-primary sm:font-regular sm:text-lg">{data.job}</h1>
 				<span class="text-primary sm:text-white sm:font-medium">{data.company}</span>
-			</h1>
+			</div>
 			<ul class="flex flex-col space-y-1.5 list-disc ml-4 text-zinc-200">
 				{#each data.description as action}
 					<li class="text-[0.875rem] font-light">{action}</li>
