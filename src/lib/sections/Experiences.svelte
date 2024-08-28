@@ -1,9 +1,11 @@
 <script>
-	import ExperienceList from '$lib/components/ExperienceList.svelte';
-	import Section from '$lib/components/Section.svelte';
+	import ExperienceList from '$lib/components/Experiences/ExperienceList.svelte';
+	import Section from '$lib/components/Base/Section.svelte';
 </script>
 
-<Section bg="dark" style="flex flex-col items-center">
-	<h1 class="font-bold text-4xl text-center mb-16">Expériences</h1>
+<Section style="flex flex-col items-center relative" title="Expériences">
+	<!-- <div
+		class="w-[14rem] h-[14rem] bg-pink-600 blur-[6rem] absolute top-[35%] -right-[5%] rounded-full"
+	></div> -->
 	<ExperienceList />
 </Section>

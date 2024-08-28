@@ -1,9 +1,11 @@
 <script lang="ts">
-	import Section from '$lib/components/Section.svelte';
-	import SkillList from '$lib/components/SkillList.svelte';
+	import Section from '$lib/components/Base/Section.svelte';
+	import SkillList from '$lib/components/Skills/SkillList.svelte';
 </script>
 
-<Section>
-	<h1 class="text-4xl text-center mb-12">Compétences</h1>
+<Section style="relative" title="Compétences">
+	<!-- <div
+		class="w-[14rem] h-[14rem] bg-blue-600 blur-[6rem] absolute top-1/4 -left-[5%] rounded-full"
+	></div> -->
 	<SkillList />
 </Section>

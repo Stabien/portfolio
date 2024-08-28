@@ -7,6 +7,9 @@ export default {
         primary: '#ffaa27',
         grey: '#2A2E37',
         black: '#1C1F25',
+      },
+      screens: {
+        xs: '420px'
       }
     },
   },
