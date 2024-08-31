@@ -6,7 +6,7 @@
 	import Skills from '$lib/sections/Skills.svelte';
 </script>
 
-<main class="w-full flex flex-col">
+<main class="w-full flex flex-col" on:scroll={(e) => console.log(e)}>
 	<Banner />
 	<Skills />
 	<Experiences />

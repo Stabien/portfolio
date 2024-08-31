@@ -6,6 +6,6 @@
 </script>
 
 <section class={computedStyle}>
-	<h1 class="font-bold text-[2.25rem] text-center mb-12">{title}</h1>
+	<h1 class="text-[2.25rem] text-center mb-12">{title}</h1>
 	<slot />
 </section>

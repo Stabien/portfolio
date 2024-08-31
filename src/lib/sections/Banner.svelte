@@ -3,14 +3,14 @@
 	import Section from '$lib/components/Base/Section.svelte';
 </script>
 
-<Section style="h-[64rem]">
+<Section style="h-[52rem]">
 	<div
-		class="flex flex-col-reverse text-center lg:text-left lg:flex-row justify-between px-2 sm:w-4/5 sm:px-0 mx-auto h-[36rem] my-[8rem]"
+		class="flex flex-col-reverse text-center lg:text-left lg:flex-row justify-between px-2 sm:w-4/5 sm:px-0 mx-auto h-[36rem] my-[10rem]"
 	>
 		<div class="flex-1 z-10">
 			<div class="mb-0 w-fit mx-auto">
 				<h1
-					class="text-primary font-bold text-[1.75rem] xs:text-[2rem] sm:text-[2.25rem] leading-6 xs:leading-8 sm:leading-[3rem]"
+					class="text-primary font-medium text-[1.75rem] xs:text-[2rem] sm:text-[2.25rem] leading-6 xs:leading-8 sm:leading-[3rem]"
 				>
 					Bastien PIEDALLU
 				</h1>

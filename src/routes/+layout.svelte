@@ -5,8 +5,5 @@
 	const routes = ['A propos', 'Compétences', 'Experiences', 'Projets', 'Contact'];
 </script>
 
-<div class="flex justify-center">
-	<NavBar {routes} />
-</div>
-
+<NavBar {routes} />
 <slot />
