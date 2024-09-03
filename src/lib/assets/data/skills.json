@@ -15,6 +15,11 @@
     "tag": "fullstack"
   },
   {
+    "name": "Tailwind",
+    "icon": "tailwind",
+    "tag": "front"
+  },
+  {
     "name": "Material UI",
     "icon": "mui",
     "tag": "front"
@@ -28,11 +33,6 @@
     "name": "SvelteKit",
     "icon": "svelte",
     "tag": "fullstack"
-  },
-  {
-    "name": "Tailwind",
-    "icon": "tailwind",
-    "tag": "front"
   },
   {
     "name": "SQL",
