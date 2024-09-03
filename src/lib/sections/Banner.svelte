@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '$lib/components/Base/Button.svelte';
 	import Section from '$lib/components/Base/Section.svelte';
+	import profilePicture from '$lib/assets/images/profile-v3.png';
 </script>
 
 <Section style="h-[52rem]">
@@ -37,7 +38,7 @@
 		</div>
 		<div class="flex lg:flex-1 relative mb-8">
 			<img
-				src="/src/lib/assets/images/profile-v3.png"
+				src={profilePicture}
 				alt="profile"
 				class="size-[12rem] sm:size-[16rem] rounded-full mx-auto border-4 border-pink-600 z-10"
 			/>
