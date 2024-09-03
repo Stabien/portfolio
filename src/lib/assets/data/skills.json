@@ -10,14 +10,24 @@
     "tag": "front"
   },
   {
-    "name": "Svelte",
-    "icon": "svelte",
+    "name": "JavaScript",
+    "icon": "javascript",
+    "tag": "fullstack"
+  },
+  {
+    "name": "Material UI",
+    "icon": "mui",
     "tag": "front"
   },
   {
     "name": "TypeScript",
     "icon": "typescript",
-    "tag": "langage"
+    "tag": "fullstack"
+  },
+  {
+    "name": "SvelteKit",
+    "icon": "svelte",
+    "tag": "fullstack"
   },
   {
     "name": "Tailwind",
@@ -32,7 +42,7 @@
   {
     "name": "GraphQL",
     "icon": "graphql",
-    "tag": "back"
+    "tag": "database"
   },
   {
     "name": "Node.js",
@@ -48,6 +58,21 @@
     "name": "Golang",
     "icon": "golang",
     "tag": "back"
+  },
+  {
+    "name": "Firebase",
+    "icon": "firebase",
+    "tag": "back"
+  },
+  {
+    "name": "Cypress",
+    "icon": "cypress",
+    "tag": "testing"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "mongodb",
+    "tag": "database"
   },
   {
     "name": "Docker",
@@ -66,7 +91,7 @@
   },
   {
     "name": "Github Actions",
-    "icon": "github",
+    "icon": "github-white",
     "tag": "devops"
   },
   {
@@ -80,13 +105,18 @@
     "tag": "mobile"
   },
   {
+    "name": "Expo",
+    "icon": "expo",
+    "tag": "mobile"
+  },
+  {
     "name": "Playwright",
     "icon": "playwright",
-    "tag": "Testing"
+    "tag": "testing"
   },
   {
     "name": "Jest",
     "icon": "jest",
-    "tag": "Testing"
+    "tag": "testing"
   }
 ]

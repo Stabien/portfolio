@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Banner from '$lib/sections/Banner.svelte';
+	import Contact from '$lib/sections/Contact.svelte';
 	import Education from '$lib/sections/Education.svelte';
 	import Experiences from '$lib/sections/Experiences.svelte';
 	import Projects from '$lib/sections/Projects.svelte';
@@ -12,7 +13,5 @@
 	<Experiences />
 	<Education />
 	<Projects />
-	<div
-		class="w-48 h-36 sm:w-64 sm:h-48 bg-blue-600 blur-[8rem] absolute top-[60%] left-1/3 lg:top-1/4 lg:left-[10%] rounded-full"
-	></div>
+	<Contact />
 </main>

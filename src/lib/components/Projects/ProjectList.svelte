@@ -3,7 +3,7 @@
 	import ProjectListItem from './ProjectListItem.svelte';
 </script>
 
-<div class="flex flex-col space-y-4 max-w-[36rem] mx-auto">
+<div class="flex flex-row flex-wrap mx-auto max-w-[64rem] justify-center gap-4">
 	{#each projects as project}
 		<ProjectListItem data={project} />
 	{/each}

@@ -3,9 +3,6 @@
 	import Section from '$lib/components/Base/Section.svelte';
 </script>
 
-<Section style="flex flex-col sm:items-center relative" title="Formations">
-	<!-- <div
-		class="w-[14rem] h-[14rem] bg-blue-600 blur-[6rem] absolute top-1/4 -left-[5%] rounded-full"
-	></div> -->
+<Section style="flex flex-col sm:items-center relative" title="Formation" id="education">
 	<DiplomaList />
 </Section>

@@ -1,6 +1,9 @@
 <script lang="ts">
-	export let routes: string[] = [];
+	import type { Route } from '../../../types';
+
+	export let routes: Route[] = [];
 	export let isOpened: boolean = false;
+	export let toggleSideBar: () => void;
 </script>
 
 <div
@@ -11,7 +14,9 @@
 	<ul class="flex flex-col p-2 pt-0 xs:text-lg space-y-2 font-light w-full h-full text-[1rem]">
 		{#each routes as route}
 			<li class="cursor-pointer rounded-lg duration-200 pl-2 py-1 w-64">
-				<a href="#experiences" class="hover:text-primary duration-200">{route}</a>
+				<a href="#{route.id}" class="hover:text-primary duration-200" on:click={toggleSideBar}
+					>{route.name}</a
+				>
 			</li>
 		{/each}
 	</ul>

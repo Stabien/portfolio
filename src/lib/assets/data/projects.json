@@ -3,24 +3,36 @@
     "name": "Olympe",
     "start": "Avril 2024",
     "end": null,
-    "description": "Olympe a pour but d'être une plateforme SAAS permettant un suivi de l'activité sportive de l'utilisateur (plutôt orienté fitness et musculation), avec la possibilité de gérer aussi sa nutrition et l'évolution de son poids",
-    "skills": ["Svelte", "Nest.js", "TypeScript", "Docker"],
-    "icon": ""
+    "description": "Olympe a pour but d'être une plateforme SAAS permettant un suivi de l'activité sportive de l'utilisateur orientée fitness et musculation, incluant aussi la gestion de la nutrition",
+    "skills": ["SvelteKit", "Nest.js", "TypeScript", "Docker"],
+    "icon": "",
+    "link": "https://github.com/Stabien/olympe-v2"
+  },
+  {
+    "name": "Portfolio",
+    "start": "Juillet 2020",
+    "end": "Septembre 2020",
+    "description": "Mon portfolio personnel est le site sur lequel vous vous trouvez actuellement. Il a pour but de présenter mon parcours et mon profil de développeur full stack JavaScript",
+    "skills": ["SvelteKit", "TypeScript", "Tailwind"],
+    "icon": "youtube.svg",
+    "link": "https://github.com/Stabien/portfolio"
   },
   {
     "name": "Nutrifinder",
     "start": "Mai 2021",
     "end": "Août 2021",
     "description": "Nutrifinder est une application mobile cross platform qui permet de consulter les données nutritionnelles de plus de 3000 produits alimentaires, le tout en offline.",
-    "skills": ["React Native", "JavaScript", "SQL", "Git"],
-    "icon": "nutrifinder.png"
+    "skills": ["React Native", "SQL", "Expo"],
+    "icon": "nutrifinder.png",
+    "link": "https://github.com/Stabien/nutrifinder"
   },
   {
     "name": "Youtube Records",
     "start": "Novembre 2020",
     "end": "Novembre 2020",
-    "description": "Extension chrome permettant de télécharger et convertir une vidéo Youtube au format mp3 directement depuis la page de la vidéo.",
-    "skills": ["JavaScript", "Node.js", "Git"],
-    "icon": "youtube.svg"
+    "description": "Youtube Records est une extension Chrome permettant de télécharger et convertir une vidéo Youtube au format mp3 directement depuis la page de la vidéo.",
+    "skills": ["JavaScript", "Node.js", "Heroku"],
+    "icon": "youtube.svg",
+    "link": "https://github.com/Stabien/youtube_records"
   }
 ]

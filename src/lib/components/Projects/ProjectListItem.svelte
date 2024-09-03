@@ -1,19 +1,25 @@
 <script lang="ts">
 	import type { Project } from '$lib/../types';
-	import Button from '../Base/Button.svelte';
 
 	export let data: Project;
 </script>
 
-<article
-	class="flex flex-col space-y-4 p-4 rounded-md bg-grey duration-200 border-2 border-grey box-border"
+<a
+	href={data.link}
+	target="_blank"
+	class="flex flex-col p-4 rounded-md bg-grey duration-200 border-2 border-grey box-border w-96 min-h-[12rem]"
 >
-	<div class="flex flex-col space-y-3">
-		<h1 class="text-lg font-regular text-primary flex flex-row space-x-2">
-			<img src="/src/lib/assets/images/{data.icon}" alt={data.name} class="w-8 h-8 rounded-md" />
-			<span class="h-fit my-auto">{data.name}</span>
+	<div class="flex flex-col h-full">
+		<h1 class="text-lg font-regular text-primary">
+			{data.name}
 		</h1>
-		<p class="text-sm">{data.description}</p>
+		<p class="text-sm mt-2 pb-4">{data.description}</p>
+		<ul class="flex flex-row flex-wrap gap-2 text-xs my-auto mb-0">
+			{#each data.skills as skill}
+				<li class="p-1 px-2 border-2 border-primary text-primary rounded-md">
+					{skill}
+				</li>
+			{/each}
+		</ul>
 	</div>
-	<Button class="w-fit p-1.5 px-3 rounded-md text-sm">Voir le détail</Button>
-</article>
+</a>

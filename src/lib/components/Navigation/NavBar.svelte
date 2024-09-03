@@ -1,21 +1,19 @@
 <script lang="ts">
+	import type { Route } from '../../../types';
 	import SideBar from './SideBar.svelte';
 
-	export let routes: string[];
+	export let routes: Route[];
 
 	let isSideBarOpened = false;
-	let y = 0;
 
 	const toggleSideBar = () => (isSideBarOpened = !isSideBarOpened);
 </script>
-
-<svelte:window bind:scrollY={y} />
 
 <nav class="sticky top-0 lg:relative z-50 duration-300">
 	<div class="hidden lg:block mx-auto w-1/2 max-w-[48rem] bg-transparent">
 		<ul class="flex flex-row space-x-2 p-4 justify-between text-lg font-light">
 			{#each routes as route}
-				<li class="cursor-pointer"><a href="#experiences">{route}</a></li>
+				<li class="cursor-pointer"><a href="#{route.id}">{route.name}</a></li>
 			{/each}
 		</ul>
 	</div>
@@ -29,9 +27,7 @@
 					: ''}"
 			></div>
 			<div
-				class="border-[0.0625rem] border-white w-full duration-300 {isSideBarOpened
-					? 'border-black'
-					: ''}"
+				class="border-[0.0625rem] w-full duration-300 {isSideBarOpened ? 'border-black' : ''}"
 			></div>
 			<div
 				class="border-[0.0625rem] border-white w-full duration-300 {isSideBarOpened
@@ -40,5 +36,5 @@
 			></div>
 		</button>
 	</div>
-	<SideBar {routes} isOpened={isSideBarOpened} />
+	<SideBar {routes} isOpened={isSideBarOpened} {toggleSideBar} />
 </nav>

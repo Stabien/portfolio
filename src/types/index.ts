@@ -26,4 +26,10 @@ export interface Project {
   description: string
   skills: string[]
   icon: string
+  link: string
+}
+
+export interface Route {
+  id: string
+  name: string
 }
