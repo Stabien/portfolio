@@ -13,8 +13,6 @@
 			href: 'https://www.linkedin.com/in/bastien-piedallu-b16558182/'
 		}
 	];
-
-	const getIconPath = (icon: string) => `/src/lib/assets/images/${icon}.svg`;
 </script>
 
 <footer class="w-full mx-auto pt-12 pb-6" id="contact">
@@ -22,7 +20,9 @@
 		{#each links as link}
 			<li>
 				<a href={link.href} target="_blank">
-					<img src={getIconPath(link.name)} alt={link.name} class="w-8 h-8" />
+					{#await import(`$lib/assets/images/${link.name}.svg`) then iconSrc}
+						<img src={iconSrc.default} alt={link.name} class="w-8 h-8" />
+					{/await}
 				</a>
 			</li>
 		{/each}
