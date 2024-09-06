@@ -21,7 +21,7 @@
 					poste de développeur <span class="text-primary font-medium">React.js</span> chez
 					Particeep.
 					<br />
-					Avec plus de 3 ans d'expériences en entreprise en tant que développeur
+					Avec plus de 3 ans d'expérience en entreprise en tant que développeur
 					<span class="text-primary font-medium">front-end</span>
 					et <span class="text-primary font-medium">full stack</span>, j'ai eu l'opportunité
 					d'acquérir une expertise solide et diversifiée en développement web
