@@ -13,7 +13,7 @@
 		return skillsByTag;
 	};
 
-	const skillByTag = groupByTag(skills);
+	const skillsByTag = groupByTag(skills);
 
 	const tags = [
 		{
@@ -47,10 +47,10 @@
 	];
 </script>
 
-<div class="flex flex-row gap-4">
-	<div class="flex flex-col gap-8 mx-auto">
+<div class="flex flex-row gap-4 justify-center">
+	<div class="flex flex-col gap-8 mx-auto justify-center">
 		{#each tags as tag}
-			<SkillListByTag title={tag.title} skills={skillByTag[tag.key]} />
+			<SkillListByTag title={tag.title} skills={skillsByTag[tag.key]} />
 		{/each}
 	</div>
 </div>
