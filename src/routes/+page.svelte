@@ -5,9 +5,14 @@
 	import Experiences from '$lib/sections/Experiences.svelte';
 	import Projects from '$lib/sections/Projects.svelte';
 	import Skills from '$lib/sections/Skills.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		console.log('mounted');
+	});
 </script>
 
-<main class="w-full flex flex-col" on:scroll={(e) => console.log(e)}>
+<main class="flex w-full flex-col">
 	<Banner />
 	<Skills />
 	<Experiences />
