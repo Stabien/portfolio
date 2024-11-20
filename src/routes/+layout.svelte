@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 	import '../app.css';
 	import type { Route } from '../types';
-  import { injectAnalytics } from '@vercel/analytics/sveltekit'
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { dev } from '$app/environment';
 
 	const routes: Route[] = [
@@ -32,7 +32,7 @@
 
 	let isLoading = true;
 
-  injectAnalytics({ mode: dev ? 'development' : 'production' });
+	injectAnalytics({ mode: 'production' });
 
 	onMount(() => setTimeout(() => (isLoading = false), 500));
 </script>
